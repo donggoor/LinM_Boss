@@ -933,7 +933,7 @@ class taskCog(commands.Cog):
 						fixed_bossFlag[i] = False
 						embed = discord.Embed(
 								description= "```" + fixed_bossData[i][0] + fixed_bossData[i][4] + "```" ,
-								color=0xe5e5e5
+								color=0xFEFFFF
 								)
 						await self.bot.get_channel(channel).send(embed=embed, tts=False)
 						try:
@@ -987,12 +987,12 @@ class taskCog(commands.Cog):
 						if bossData[i][6] != '' :
 							embed = discord.Embed(
 									description= "```" + bossData[i][0] + bossData[i][4] + '\n<' + bossData[i][6] + '>```' ,
-									color=0xe5e5e5
+									color=0xFEFFFF
 									)
 						else :
 							embed = discord.Embed(
 									description= "```" + bossData[i][0] + bossData[i][4] + "```" ,
-									color=0xe5e5e5
+									color=0xFEFFFF
 									)
 						await self.bot.get_channel(channel).send(embed=embed, tts=False)
 						try:

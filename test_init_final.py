@@ -933,7 +933,7 @@ class taskCog(commands.Cog):
 						fixed_bossFlag[i] = False
 						embed = discord.Embed(
 								description= "```" + fixed_bossData[i][0] + fixed_bossData[i][4] + "```" ,
-								color=0x00ff00
+								color=0xe5e5e5
 								)
 						await self.bot.get_channel(channel).send(embed=embed, tts=False)
 						try:

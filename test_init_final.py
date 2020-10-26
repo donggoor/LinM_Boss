@@ -987,12 +987,12 @@ class taskCog(commands.Cog):
 						if bossData[i][6] != '' :
 							embed = discord.Embed(
 									description= "```" + bossData[i][0] + bossData[i][4] + '\n<' + bossData[i][6] + '>```' ,
-									color=0x00ff00
+									color=0xe5e5e5
 									)
 						else :
 							embed = discord.Embed(
 									description= "```" + bossData[i][0] + bossData[i][4] + "```" ,
-									color=0x00ff00
+									color=0xe5e5e5
 									)
 						await self.bot.get_channel(channel).send(embed=embed, tts=False)
 						try:
